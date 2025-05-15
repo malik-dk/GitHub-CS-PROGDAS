@@ -16,7 +16,7 @@ void decrypt(char *message, char *key) {
 int main() {
 
     char message[] = "0X`RLmhiQH.VT1b[F"; // Message to encrypt
-    char *key[] = "chillGuy";
+    char key[] = "chillGuy";
 
     // Decrypt the message
     decrypt(message, key);
